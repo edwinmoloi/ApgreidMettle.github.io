@@ -1,0 +1,89 @@
+/* ---------------------------------- Styling All Pages ------------------------------------------------*/
+/*styling & controlling wrapper container*/
+* /*html, body*/	{margin:0; padding:0;}
+html, body {background:#008fb3}
+/*styling controlling wrapper container*/
+#wrapper	{width:80%; margin:0 auto -30px;}
+
+/*styling & controlling navigation & hyper-links....#99b3e6 */
+#nav	{width:100%; margin-top:10px;}
+ul {list-style-type: none; margin: 0; overflow: hidden; 
+		background-color:#538cc6; border-radius:5px;}
+li a {display: inline-block; color: white; text-align: center; padding:10px; width:200px; 
+		text-decoration: none; float:right; margin-left:5px; border-radius:5px;}
+a:hover	{background:#0059b3;}
+.actv	{background:#99b3e6;  border-radius:5px;}
+.para5 {padding:10px; text-align:center; font-family:Monotype Corsiva; color:orange; font-size:16pt;}
+/* ---------------------------------- End Of All Pages ------------------------------------------------*/
+
+
+/* ---------------------------------- Styling Home Page ------------------------------------------------*/
+/*styling & controlling Slideshow */
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {max-width: 100%; position: relative; margin: auto; padding-top:4px;}
+	
+/* Caption text */
+.text {color: #ffffcc; font-size: 15px; padding: 8px 12px; position: absolute; bottom: 8px; width: 100%; text-align: center;}
+
+/* Number text (1/4 etc) */
+.numbertext {color: #ffffcc; font-size: 12px; padding: 8px 12px; position: absolute; bottom: 5px;}
+
+/*styling & controlling text container
+#txtCntnt {background-color: #008000;}*/
+
+/*styling & controlling main content*/
+#txt0 {position:relative; width:100%;}
+	#txt01{position:relative; float:left; width:100%; height:2em; 
+	text-align:center; padding-top:10px; padding-left:20px;}
+.para0 {margin:20px; padding-top:20px; text-align:center; color:white; 
+		font-size:14pt; font-family:Maiandra GD;}
+#txt1 {position:relative; float:left; width:45%; margin-left:3%;}
+.para1{text-align:justify; color:white; font-family:Maiandra GD; font-size:14pt;
+		padding-left:135px;}
+.para2{text-align:justify; color:white; font-family:Maiandra GD; font-size:14pt;
+		padding-left:45px;}
+
+/*styling & controlling Paragraphs on the main content*/
+.paraMM {margin:20px; padding-top:20px; text-align:center; color:white; font-family:Maiandra GD;}
+
+/* ---------------------------------------------- End Of Home Page ------------------------------------------------*/
+
+
+/* ---------------------------------------------- Styling Stationary Page ------------------------------------------------*/
+.para00 {margin:20px; padding-top:20px; text-align:center; color:white; 
+		font-size:14pt; font-family:Maiandra GD;}
+/* ---------------------------------------------- End Of Stationary Page ------------------------------------------------*/
+
+
+/* ---------------------------------------------- Styling Form Page ------------------------------------------------*/
+label {text-align:left; color:white; font-size:14pt; font-family:Maiandra GD;}
+#txtbox{width:100%; padding:6px; border-radius:7px; color:blue; padding-left:20px;
+		font-family:Maiandra GD; font-size:12pt;}
+.gnda{width:100%; padding:5px; border-radius:7px; color:blue; padding-left:20px;
+		font-family:Maiandra GD; font-size:12pt;}
+.att{color:blue; font-family:Maiandra GD; font-size:12pt;}
+.submitbtn{width:40%; padding:5px; border-radius:7px; color:#ffffff; padding-left:20px;
+		font-family:Maiandra GD; font-size:12pt; background:#00b386;}
+
+/* ---------------------------------------------- End Of Form Page ------------------------------------------------*/
+
+/* ---------------------------------------------- Styling Footer ------------------------------------------------*/
+/*styling & controlling footer*/
+#ftr {height:5em; padding-top:12px; margin-top:2px; border-radius:5px; font-size:14pt; 
+		background:#00a3cc; text-align:center; font-family:Maiandra GD; color:#ffffff;}
+#contactsLEFT {position:relative; float:left; width:30%; margin-left:2.5%;}
+	.cLFT {text-align:left; color:white; font-size:14pt; font-family:Maiandra GD;}
+	.cRHT {text-align:right; color:white; font-size:14pt; font-family:Maiandra GD;}
+	.cMDL {text-align:center; padding-top:28px; color:white; font-size:14pt; font-family:Maiandra GD;}
+
+
+/*styling & controlling footer social link */
+.socialNtwk {border-radius:7px 7px 7px 7px; padding:3px;}
+#innerFtr {float:right; padding-right:30px; margin:-7px;}
+/*creating clear method*/
+.clear	{clear:both;}
+/* ---------------------------------------------- End Of Footer ------------------------------------------------*/

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Stationary</title>
+	<link type="text/css" rel="stylesheet" href="css/hyperlinks.css" media="screen">
+	<link rel="icon" href="pictures/Logo_0.png">
+</head>
+ <body>
+	<div id="wrapper">
+			  <!-- Styling and controlling banner slide--> 
+					<div class="slideshow-container">
+						<img src="pictures/Logo_01.png" width="180" height="160px" align="left">
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner.png" width="85%" height="160px">
+						</div>
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner1.png" width="85%" height="160px">
+						</div>
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner2.png" width="85%" height="160px">
+						</div>
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner3.png" width="85%" height="160px">
+						</div>
+							<script>
+								
+								<!-- An autoset slide-->
+								var slideIndex = 0;
+									showSlides();
+									function showSlides() {
+										var i;
+										var slides = document.getElementsByClassName("mySlides");
+										for (i = 0; i < slides.length; i++) {
+											slides[i].style.display = "none"; 
+										}
+										slideIndex++;
+										if (slideIndex> slides.length) {slideIndex = 1} 
+										slides[slideIndex-1].style.display = "block"; 
+										setTimeout(showSlides, 2000); // Change image every 2 seconds
+									}
+							</script>
+					</div>
+				<div id="nav">
+					<ul>
+						<li><a href="reg.html"><b>Registering/Signup</b></a></li>
+						<li><a class="actv" href="books.html"><b>Stationary</b></a></li>
+						<li><a href="index.html"><b>Home</b></a></li>
+					</ul>	
+			   	</div>
+					
+						<div id="txtCntnt">
+							<div id="txt0">
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										<b>Scratch Programming</b>
+									<br><br>
+										<img src="pictures/download.jpg" width="200" height="260" hspace="50px">
+									<br>
+										R200.00<br><br>
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										<b>Coding For kid Scratch</b>
+									<br><br>
+										<img src="pictures/ScratchLearntoprogramtheeasywa295201803017.jpg" width="200" height="260" hspace="50px">
+									<br>
+										R199.85<br><br>
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										<b>How to Build a Website</b>
+									<br><br>
+										<img src="pictures/How-to-Build-a-Website_Hero.jpg" width="200" height="260" hspace="50px">
+									<br>
+										R850.99<br><br>
+									</p>
+								</div>	
+							</div>
+							<div id="txt0">
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										<b>Scratch Programming</b>
+									<br><br>
+										<img src="pictures/download.jpg" width="200" height="260" hspace="50px">
+									<br>
+										R200.00<br><br>
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										<b>Coding For kid Scratch</b>
+									<br><br>
+										<img src="pictures/ScratchLearntoprogramtheeasywa295201803017.jpg" width="200" height="260" hspace="50px">
+									<br>
+										R199.85<br><br>
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										<b>How to Build a Website</b>
+									<br><br>
+										<img src="pictures/How-to-Build-a-Website_Hero.jpg" width="200" height="260" hspace="50px">
+									<br>
+										R850.99<br><br>
+									</p>
+								</div>	
+							</div>
+						<div class="clear"></div>
+							<!-- creating footer -->
+							<div id="ftr">
+								<div id="contactsLEFT">
+									<p class="cLFT">
+										<img class="socialNtwk" src="pictures/moreInfo.png" width="26" height="23px" align="left" title="Information Desk">
+											 info@apgreidmettle.co.za<br><br>
+										<img class="socialNtwk" src="pictures/facebook.png" width="26" height="23px" align="left" title="Facebook Page">
+											 Apgreid Mettle
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										Apgreid Mettle Pty Ltd &copy K201911250 &reg
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cRHT">
+										<img class="socialNtwk" src="pictures/whatsapp.png" width="26" height="23px" align="right" title="Whatsapp">
+											 061 499 4627<br><br>
+										<img class="socialNtwk" src="pictures/Telphone.png" width="26" height="23px" align="right" title="Telphone">
+											 (016) 150 0908
+									<br><br></p>
+								</div>
+							</div>				
+	</div>
+ </body>
+</html>

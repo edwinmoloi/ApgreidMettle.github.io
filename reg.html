@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<link type="text/css" rel="stylesheet" href="css/hyperlinks.css" media="screen">
+	<link rel="icon" href="pictures/Logo_0.png">
+</head>
+ <body>
+	<div id="wrapper">
+			  <!-- Styling and controlling banner slide--> 
+					<div class="slideshow-container">
+						<img src="pictures/Logo_01.png" width="180" height="160px" align="left">
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner.png" width="85%" height="160px">
+						</div>
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner1.png" width="85%" height="160px">
+						</div>
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner2.png" width="85%" height="160px">
+						</div>
+						<div class="mySlides fade">
+						  <img src="pictures/NameBanner3.png" width="85%" height="160px">
+						</div>
+							<script>
+								
+								<!-- An autoset slide-->
+								var slideIndex = 0;
+									showSlides();
+									function showSlides() {
+										var i;
+										var slides = document.getElementsByClassName("mySlides");
+										for (i = 0; i < slides.length; i++) {
+											slides[i].style.display = "none"; 
+										}
+										slideIndex++;
+										if (slideIndex> slides.length) {slideIndex = 1} 
+										slides[slideIndex-1].style.display = "block"; 
+										setTimeout(showSlides, 2000); // Change image every 2 seconds
+									}
+							</script>
+					</div>
+				<div id="nav">
+					<ul>
+						<li><a class="actv" href="reg.html"><b>Registering/Signup</b></a></li>
+						<li><a href="books.html"><b>Stationary</b></a></li>
+						<li><a href="index.html"><b>Home</b></a></li>
+					</ul>	
+			   	</div>
+					
+						<div id="txtCntnt">
+							<div id="txt1">
+								<div id="txt01"><b>
+									<font color="#FF9900" face="Maiandra GD" size="+2">S</font><font color="#FF9900" face="Maiandra GD" size="+1">IGN </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">U</font><font color="#FF9900" face="Maiandra GD" size="+1">P </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">A</font><font color="#FF9900" face="Maiandra GD" size="+1">S </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">A </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">T</font><font color="#FF9900" face="Maiandra GD" size="+1">UTOR </font>
+								</b></div><br><br>
+								<form method="POST" action="#">
+								<label>Gender</label>
+								<select class="gnda" name="genderT">
+									<option>- Select Your Gender -</option>
+									<option>Male</option>
+									<option>Female</option>
+								</select><br><br>
+								<label>Name</label>
+								<input id="txtbox" type="text" name="nameT" placeholder="Type here..."><br><br>
+								<label>Surname</label>
+								<input id="txtbox" type="text" name="surnameT" placeholder="Type here..."><br><br>
+								<label>Year Of Birth</label>
+								<input id="txtbox" type="text" name="dobT" placeholder="Type here..."><br><br>
+								<label>Physical Address</label>
+								<input id="txtbox" type="text" name="paT" placeholder="Type here..."><br><br>
+								<label>Province</label>
+								<select class="gnda" name="provinceT">
+									<option>- Select Your Province -</option>
+									<option>Eastern Cape</option>
+									<option>Free State</option>
+									<option>Gauteng</option>
+									<option>KwaZulu-Natal</option>
+									<option>Limpopo</option>
+									<option>Mpumalanga</option>
+									<option>Northern Cape</option>
+									<option>North West</option>
+								</select><br><br>
+								<label>City</label>
+								<input id="txtbox" type="text" name="cityT" placeholder="Type here..."><br><br>
+								<label>Area</label>
+								<input id="txtbox" type="text" name="areaT" placeholder="Type here..."><br><br>
+								<label>Mobile Contacts</label>
+								<input id="txtbox" type="text" name="mobileT" placeholder="Type here..."><br><br>
+								<label>Whatsapp (same as mobile number)</label>
+								<input id="txtbox" type="text" name="whatsappT" placeholder="Type here..."><br><br>
+								<label>Email Address</label>
+								<input id="txtbox" type="text" name="emailT" placeholder="Type here..."><br><br>
+								<label>Password</label>
+								<input id="txtbox" type="password" name="passwordT" placeholder="Type here..."><br><br>
+								<label>Attach Your Document</label>
+								<input class="att" type="file" name="avatarT" accept="image/*"><br><br>
+								<center><button class="submitbtn" type="submit" name="register">Signup</button></center><br>
+							</div>
+							<div id="txt1">
+								<div id="txt01"><b>
+									<font color="#FF9900" face="Maiandra GD" size="+2">S</font><font color="#FF9900" face="Maiandra GD" size="+1">IGN </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">U</font><font color="#FF9900" face="Maiandra GD" size="+1">P </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">A</font><font color="#FF9900" face="Maiandra GD" size="+1">S </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">A </font>
+									<font color="#FF9900" face="Maiandra GD" size="+2">S</font><font color="#FF9900" face="Maiandra GD" size="+1">TUDENT </font>
+								</b></div><br><br>
+								<form method="POST" action="#">
+								<label>Gender</label>
+								<select class="gnda" name="genderS">
+									<option>- Select Your Gender -</option>
+									<option>Male</option>
+									<option>Female</option>
+								</select><br><br>
+								<label>Name</label>
+								<input id="txtbox" type="text" name="nameS" placeholder="Type here..."><br><br>
+								<label>Surname</label>
+								<input id="txtbox" type="text" name="surnameS" placeholder="Type here..."><br><br>
+								<label>Year Of Birth</label>
+								<input id="txtbox" type="text" name="dobS" placeholder="Type here..."><br><br>
+								<label>Physical Address</label>
+								<input id="txtbox" type="text" name="paS" placeholder="Type here..."><br><br>
+								<label>Province</label>
+								<select class="gnda" name="provinceS">
+									<option>- Select Your Province -</option>
+									<option>Eastern Cape</option>
+									<option>Free State</option>
+									<option>Gauteng</option>
+									<option>KwaZulu-Natal</option>
+									<option>Limpopo</option>
+									<option>Mpumalanga</option>
+									<option>Northern Cape</option>
+									<option>North West</option>
+								</select><br><br>
+								<label>City</label>
+								<input id="txtbox" type="text" name="cityS" placeholder="Type here..."><br><br>
+								<label>Area</label>
+								<input id="txtbox" type="text" name="areaS" placeholder="Type here..."><br><br>
+								<label>Mobile Contacts</label>
+								<input id="txtbox" type="text" name="mobileS" placeholder="Type here..."><br><br>
+								<label>Whatsapp (same as mobile number)</label>
+								<input id="txtbox" type="text" name="whatsappS" placeholder="Type here..."><br><br>
+								<label>Email Address</label>
+								<input id="txtbox" type="text" name="emailS" placeholder="Type here..."><br><br>
+								<label>Password</label>
+								<input id="txtbox" type="password" name="passwordS" placeholder="Type here..."><br><br>
+								<label>Attach Your Document</label>
+								<input class="att" type="file" name="avatarS" accept="image/*"><br><br>
+								<center><button class="submitbtn" type="submit" name="register">Signup</button></center><br>
+							</div>
+						</div>
+						<div class="clear"></div>
+							<!-- creating footer -->
+							<div id="ftr">
+								<div id="contactsLEFT">
+									<p class="cLFT">
+										<img class="socialNtwk" src="pictures/moreInfo.png" width="26" height="23px" align="left" title="Information Desk">
+											 info@apgreidmettle.co.za<br><br>
+										<img class="socialNtwk" src="pictures/facebook.png" width="26" height="23px" align="left" title="Facebook Page">
+											 Apgreid Mettle
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cMDL">
+										Apgreid Mettle Pty Ltd &copy K201911250 &reg
+									</p>
+								</div>
+								<div id="contactsLEFT">
+									<p class="cRHT">
+										<img class="socialNtwk" src="pictures/whatsapp.png" width="26" height="23px" align="right" title="Whatsapp">
+											 061 499 4627<br><br>
+										<img class="socialNtwk" src="pictures/Telphone.png" width="26" height="23px" align="right" title="Telphone">
+											 (016) 150 0908
+									<br><br></p>
+								</div>
+							</div>				
+	</div>
+ </body>
+</html>
